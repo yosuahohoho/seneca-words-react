@@ -1,24 +1,41 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
 
-function App() {
+import Header from './components/Header';
+import Quote from './components/Quote';
+import Toolbar from './components/Toolbar';
+import Footer from './components/Footer';
+
+const App = () => {
+
+  const [data, setData] = useState({})
+  const [isLoaded, setLoaded] = useState(false)
+
+  useEffect(() => {
+    fetchQuote()
+  }, [])
+
+  const handleClick = () => {
+    setLoaded(false)
+    fetchQuote()
+  }
+
+  // fetch random quote from api
+  const fetchQuote = () => {
+    fetch('https://seneca-words.glitch.me/api/quotes')
+      .then(response => response.json())
+      .then(data => {
+        setData(data)
+        setLoaded(true)
+      })
+      .catch(error => console.error('Error: ', error))
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <Header />
+      <Quote quote={data} loaded={isLoaded} />
+      <Toolbar quote={data} handleClick={handleClick} />
+      <Footer />
     </div>
   );
 }
