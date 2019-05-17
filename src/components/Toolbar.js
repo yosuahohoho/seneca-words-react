@@ -31,7 +31,7 @@ const Toolbar = ({ quote, handleClick }) => {
                 onClick={handleClick}
             >
                 Get Quote
-      </button>
+            </button>
         </section>
     )
 }
