@@ -4,8 +4,15 @@ dependencies:
   '@fortawesome/react-fontawesome': 0.1.4
   gh-pages: 2.0.1
   normalize.css: 8.0.1
+  react-transition-group: 4.0.1
 lockfileVersion: 5
 packages:
+  /@babel/runtime/7.4.4:
+    dependencies:
+      regenerator-runtime: 0.13.2
+    dev: false
+    resolution:
+      integrity: sha512-w0+uT71b6Yi7i5SE0co4NioIpSYS6lLiXvCzWzGSKvpK5vdQtCbICHMj+gbAKAOtxiV6HsVh/MBdaF9EQ6faSg==
   /@fortawesome/fontawesome-common-types/0.2.18:
     dev: false
     engines:
@@ -77,6 +84,12 @@ packages:
     dev: false
     resolution:
       integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
+  /dom-helpers/3.4.0:
+    dependencies:
+      '@babel/runtime': 7.4.4
+    dev: false
+    resolution:
+      integrity: sha512-LnuPJ+dwqKDIyotW1VzmOZ5TONUN7CwkCR5hrgawTUbkBGYdeoNLZo6nNfGkCrjtE1nXXaj7iMMpDa8/d9WoIA==
   /email-addresses/3.0.3:
     dev: false
     resolution:
@@ -306,6 +319,21 @@ packages:
     dev: false
     resolution:
       integrity: sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
+  /react-transition-group/4.0.1:
+    dependencies:
+      dom-helpers: 3.4.0
+      loose-envify: 1.4.0
+      prop-types: 15.7.2
+    dev: false
+    peerDependencies:
+      react: '>=16.6.0'
+      react-dom: '>=16.6.0'
+    resolution:
+      integrity: sha512-SsLcBYhO4afXJC9esL8XMxi/y0ZvEc7To0TvtrBELqzpjXQHPZOTxvuPh2/4EhYc0uSMfp2SExIxsyJ0pBdNzg==
+  /regenerator-runtime/0.13.2:
+    dev: false
+    resolution:
+      integrity: sha512-S/TQAZJO+D3m9xeN1WTI8dLKBBiRgXBlTJvbWjCThHWZj9EvHK70Ff50/tYj2J/fvBY6JtFVwRuazHN2E7M9BA==
   /rimraf/2.6.3:
     dependencies:
       glob: 7.1.4
@@ -365,3 +393,4 @@ specifiers:
   '@fortawesome/react-fontawesome': ^0.1.4
   gh-pages: ^2.0.1
   normalize.css: ^8.0.1
+  react-transition-group: ^4.0.1
