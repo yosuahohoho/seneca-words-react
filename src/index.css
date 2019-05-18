@@ -30,8 +30,7 @@
 /** Tablet Version **/
 @media screen
 and (min-width: 480px)
-and (max-width: 800px) 
-and (orientation: landscape) {
+and (max-width: 1024px) {
   :root {
     font-size: 22px;
   }
