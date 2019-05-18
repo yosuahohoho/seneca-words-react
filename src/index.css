@@ -134,3 +134,22 @@ footer > .copyright{
   float: left;
   margin-left: .5em;
 }
+
+/** Animation **/
+.quote-enter {
+  opacity: 0;
+}
+
+.quote-enter-active {
+  opacity: 1;
+  transition: opacity 350ms;
+}
+
+.quote-exit {
+  opacity: 1;
+}
+
+.quote-exit-active {
+  opacity: 0;
+  transform: opacity 350ms;
+}
