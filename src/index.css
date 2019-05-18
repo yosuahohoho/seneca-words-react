@@ -28,7 +28,14 @@
 }
 
 /** Tablet Version **/
-@media screen and (max-width: 800px) {
+@media screen
+and (min-width: 480px)
+and (max-width: 800px) 
+and (orientation: landscape) {
+  :root {
+    font-size: 22px;
+  }
+
   .container {
     margin-top: 15vh;
   }
