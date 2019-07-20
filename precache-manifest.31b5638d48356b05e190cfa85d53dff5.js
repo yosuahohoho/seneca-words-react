@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "36802124bc077c83aae88d75482ffd4f",
+    "revision": "dfd335b33614cf66c1093e4f0f1b98c7",
     "url": "/seneca-words-react/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/seneca-words-react/static/css/2.764ccc25.chunk.css"
   },
   {
-    "revision": "640391693052e47a8f21",
+    "revision": "b1eb5445244e0a20fd5c",
     "url": "/seneca-words-react/static/css/main.b978bbde.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/seneca-words-react/static/js/2.46c059ed.chunk.js"
   },
   {
-    "revision": "640391693052e47a8f21",
-    "url": "/seneca-words-react/static/js/main.75dd13c4.chunk.js"
+    "revision": "b1eb5445244e0a20fd5c",
+    "url": "/seneca-words-react/static/js/main.66bb7b14.chunk.js"
   },
   {
     "revision": "39c54dc7f6ee8a0928cb",
