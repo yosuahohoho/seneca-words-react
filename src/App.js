@@ -33,7 +33,7 @@ const App = () => {
   return (
     <div className="container">
       <Header />
-      <Quote quote={data} loaded={isLoaded} />
+      <Quote quote={data} isLoaded={isLoaded} />
       <Toolbar quote={data} handleClick={handleClick} />
       <Footer />
     </div>
