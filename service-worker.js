@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/seneca-words-react/precache-manifest.31b5638d48356b05e190cfa85d53dff5.js"
+  "/seneca-words-react/precache-manifest.be700b64b994865ad7f0dc9b9214a43a.js"
 );
 
 self.addEventListener('message', (event) => {
