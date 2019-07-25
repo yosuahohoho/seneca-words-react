@@ -9,7 +9,7 @@
   box-sizing: inherit;
 }
 
-.container {
+.app {
   max-width: 600px;
   margin: 0 auto;
   text-align: center;
@@ -47,7 +47,7 @@ h1 {
 }
 
 /** Quote **/
-.quote {
+.quote__content {
   min-height: 120px;
   padding: 1em;
   border-top: 2px solid;
@@ -55,7 +55,7 @@ h1 {
   margin-bottom: 1em;
 }
 
-.quote__text {
+.quote--text {
   font-family: 'Open Sans', sans-serif;
   margin-top: 0;
   padding: .5em;
@@ -64,7 +64,7 @@ h1 {
   text-align: left;
 }
 
-.quote__author {
+.quote--author {
   margin-top: 10px;
   margin-bottom: 0;
   min-height: 20px;
@@ -75,7 +75,7 @@ h1 {
 }
 
 /** toolbar **/
-.toolbar {
+.quote__toolbar {
   text-align: center;
   margin-bottom: 8em;
 }
@@ -120,7 +120,7 @@ footer {
 
 footer > .copyright{
   display: block;
-  margin-top: 2em;
+  margin: 2em;
   text-align: center;
 }
 
@@ -136,20 +136,20 @@ footer > .copyright{
 }
 
 /** Animation **/
-.quote-enter {
+.quote--animation-enter {
   opacity: 0;
 }
 
-.quote-enter-active {
+.quote--animation-enter-active {
   opacity: 1;
   transition: opacity 350ms;
 }
 
-.quote-exit {
+.quote--animation-exit {
   opacity: 1;
 }
 
-.quote-exit-active {
+.quote--animation-exit-active {
   opacity: 0;
   transform: opacity 350ms;
 }
