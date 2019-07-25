@@ -21,7 +21,7 @@
     font-size: 16px;
   }
   
-  .container {
+  .app {
     max-width: 300px;
     margin-top: 15vh;
   }
@@ -35,7 +35,7 @@ and (max-width: 1024px) {
     font-size: 22px;
   }
 
-  .container {
+  .app {
     margin-top: 15vh;
   }
 }
