@@ -77,7 +77,9 @@ h1 {
 /** toolbar **/
 .quote__toolbar {
   display: flex;
+  font-size: 0.875rem;
   justify-content: space-between;
+  align-items: center;
   padding: 0 0.5em;
   margin-bottom: 8em;
 }
@@ -90,7 +92,7 @@ h1 {
 .btn, .btn:active, .btn:focus, .btn:visited,
 .link, .link:active, .link:focus, .link:visited
 {
-  font-size: 0.875rem;
+  font-size: 1em;
   padding: .3em .4em;
   background-color: #000;
   color: #fff;
