@@ -84,13 +84,13 @@ h1 {
   margin-bottom: 8em;
 }
 
-.quote__share__links > .link + .link {
+.quote__share__links > a + a {
   margin-left: 0.5em;
 }
 
 /** Button & Link **/
-.btn, .btn:active, .btn:focus, .btn:visited,
-.link, .link:active, .link:focus, .link:visited
+button, button:active, button:focus, button:visited,
+a, a:active, a:focus, a:visited
 {
   font-size: 1em;
   padding: .3em .4em;
@@ -105,7 +105,7 @@ h1 {
               color .2s ease-in;
 }
 
-.btn:hover, .link:hover {
+button:hover, a:hover {
   background-color: #fff;
   color: #000;
 }
