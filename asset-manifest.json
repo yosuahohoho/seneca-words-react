@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/seneca-words-react/static/css/main.3a2d8458.chunk.css",
-    "main.js": "/seneca-words-react/static/js/main.73ea6baa.chunk.js",
-    "main.js.map": "/seneca-words-react/static/js/main.73ea6baa.chunk.js.map",
+    "main.css": "/seneca-words-react/static/css/main.3e57eb6d.chunk.css",
+    "main.js": "/seneca-words-react/static/js/main.fc38843e.chunk.js",
+    "main.js.map": "/seneca-words-react/static/js/main.fc38843e.chunk.js.map",
     "runtime~main.js": "/seneca-words-react/static/js/runtime~main.4d0a040e.js",
     "runtime~main.js.map": "/seneca-words-react/static/js/runtime~main.4d0a040e.js.map",
     "static/css/2.764ccc25.chunk.css": "/seneca-words-react/static/css/2.764ccc25.chunk.css",
     "static/js/2.5b9f15f4.chunk.js": "/seneca-words-react/static/js/2.5b9f15f4.chunk.js",
     "static/js/2.5b9f15f4.chunk.js.map": "/seneca-words-react/static/js/2.5b9f15f4.chunk.js.map",
     "index.html": "/seneca-words-react/index.html",
-    "precache-manifest.ac135fc6a8b1db97c35c9c92fef59f69.js": "/seneca-words-react/precache-manifest.ac135fc6a8b1db97c35c9c92fef59f69.js",
+    "precache-manifest.467686f55e7db158fc00917b89561d34.js": "/seneca-words-react/precache-manifest.467686f55e7db158fc00917b89561d34.js",
     "service-worker.js": "/seneca-words-react/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/seneca-words-react/static/css/2.764ccc25.chunk.css.map",
-    "static/css/main.3a2d8458.chunk.css.map": "/seneca-words-react/static/css/main.3a2d8458.chunk.css.map"
+    "static/css/main.3e57eb6d.chunk.css.map": "/seneca-words-react/static/css/main.3e57eb6d.chunk.css.map"
   }
 }
