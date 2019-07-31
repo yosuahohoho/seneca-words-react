@@ -3,15 +3,15 @@ import { CSSTransition } from 'react-transition-group'
 
 const QuoteContent = ({ quote, isLoading, isError }) => {
   return (
-    <section className='quote__content'>
+    <section className='quote'>
       <CSSTransition
         in={!isLoading}
         timeout={350}
-        classNames='quote--animation'
+        classNames='quote__animation'
         unmountOnExit>
         <section>
-          <p className='quote--text'>{quote.message}</p>
-          <p className='quote--author'>- {quote.author}</p>
+          <p className='quote__text'>{quote.message}</p>
+          <p className='quote__author'>- {quote.author}</p>
         </section>
       </CSSTransition>
     </section>

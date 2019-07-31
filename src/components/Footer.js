@@ -10,7 +10,7 @@ const Footer = () => {
       </p>
       <span>
         <a
-          className='link link-freeCodeCamp'
+          className='link'
           href='https://www.freecodecamp.org/'
           target='_blank'
           rel='noopener noreferrer'>

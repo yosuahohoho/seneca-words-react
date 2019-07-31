@@ -11,24 +11,25 @@ const QuoteToolbar = ({ quote, handleClick }) => {
 
   return (
     <section className='quote__toolbar'>
-      <a
-        href={twitterHref}
-        className='link link-twitter float-left'
-        title='tweet it!'
-        target='_blank'
-        rel='noopener noreferrer'>
-        <FontAwesomeIcon icon={faTwitter} />
-      </a>
-      <a
-        href={whatsAppHref}
-        className='link link-whatsapp float-left'
-        title='Share to whatsapp!'
-        target='_blank'
-        rel='noopener noreferrer'>
-        <FontAwesomeIcon icon={faWhatsapp} />
-      </a>
-
-      <button className='btn btn-get float-right' onClick={() => handleClick()}>
+      <div className="quote__share__links">
+        <a
+          href={twitterHref}
+          className='link'
+          title='tweet it!'
+          target='_blank'
+          rel='noopener noreferrer'>
+          <FontAwesomeIcon icon={faTwitter} />
+        </a>
+        <a
+          href={whatsAppHref}
+          className='link'
+          title='Share to whatsapp!'
+          target='_blank'
+          rel='noopener noreferrer'>
+          <FontAwesomeIcon icon={faWhatsapp} />
+        </a>
+      </div>
+      <button className='btn' onClick={handleClick}>
         Get Quote
       </button>
     </section>

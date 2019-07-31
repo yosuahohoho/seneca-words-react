@@ -1,6 +1,6 @@
 :root {
   box-sizing: border-box;
-  font-size: calc(1vw + .6em);
+  font-size: calc(1vw + 0.6em);
 }
 
 *,
@@ -47,7 +47,7 @@ h1 {
 }
 
 /** Quote **/
-.quote__content {
+.quote {
   min-height: 120px;
   padding: 1em;
   border-top: 2px solid;
@@ -55,7 +55,7 @@ h1 {
   margin-bottom: 1em;
 }
 
-.quote--text {
+.quote__text {
   font-family: 'Open Sans', sans-serif;
   margin-top: 0;
   padding: .5em;
@@ -64,7 +64,7 @@ h1 {
   text-align: left;
 }
 
-.quote--author {
+.quote__author {
   margin-top: 10px;
   margin-bottom: 0;
   min-height: 20px;
@@ -76,20 +76,29 @@ h1 {
 
 /** toolbar **/
 .quote__toolbar {
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.5em;
   margin-bottom: 8em;
+}
+
+.quote__share__links > .link + .link {
+  margin-left: 0.5em;
 }
 
 /** Button & Link **/
 .btn, .btn:active, .btn:focus, .btn:visited,
 .link, .link:active, .link:focus, .link:visited
 {
+  font-size: 0.875rem;
+  padding: .3em .4em;
   background-color: #000;
   color: #fff;
   border: 1px solid #000;
   border-radius: 1em;
   cursor: pointer;
   outline: 0;
+  text-decoration: none;
   transition: background-color .2s ease-in,
               color .2s ease-in;
 }
@@ -97,19 +106,6 @@ h1 {
 .btn:hover, .link:hover {
   background-color: #fff;
   color: #000;
-}
-
-.link-twitter, .link-whatsapp, .link-freeCodeCamp {
-  padding: .3em .4em;
-}
-
-.link-freeCodeCamp {
-  text-decoration: none;
-}
-
-.btn-get {
-  font-size: 0.875rem;
-  padding: .3em .5em;
 }
 
 /** Footer **/
@@ -124,32 +120,21 @@ footer > .copyright{
   text-align: center;
 }
 
-/** Utillities**/
-.float-right {
-  float: right;
-  margin-right: .5em;
-}
-
-.float-left {
-  float: left;
-  margin-left: .5em;
-}
-
 /** Animation **/
-.quote--animation-enter {
+.quote__animation-enter {
   opacity: 0;
 }
 
-.quote--animation-enter-active {
+.quote__animation-enter-active {
   opacity: 1;
   transition: opacity 350ms;
 }
 
-.quote--animation-exit {
+.quote__animation-exit {
   opacity: 1;
 }
 
-.quote--animation-exit-active {
+.quote__animation-exit-active {
   opacity: 0;
   transform: opacity 350ms;
 }
