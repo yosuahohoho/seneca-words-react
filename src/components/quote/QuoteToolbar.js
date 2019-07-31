@@ -14,7 +14,6 @@ const QuoteToolbar = ({ quote, handleClick }) => {
       <div className="quote__share__links">
         <a
           href={twitterHref}
-          className='link'
           title='tweet it!'
           target='_blank'
           rel='noopener noreferrer'>
@@ -22,14 +21,13 @@ const QuoteToolbar = ({ quote, handleClick }) => {
         </a>
         <a
           href={whatsAppHref}
-          className='link'
           title='Share to whatsapp!'
           target='_blank'
           rel='noopener noreferrer'>
           <FontAwesomeIcon icon={faWhatsapp} />
         </a>
       </div>
-      <button className='btn' onClick={handleClick}>
+      <button onClick={handleClick}>
         Get Quote
       </button>
     </section>
