@@ -92,7 +92,6 @@ h1 {
 button, button:active, button:focus, button:visited,
 a, a:active, a:focus, a:visited
 {
-  font-size: 1em;
   background-color: #000;
   padding: 0.4em 0.5em;
   color: #fff;

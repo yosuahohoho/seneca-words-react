@@ -17,14 +17,14 @@ const QuoteToolbar = ({ quote, handleClick }) => {
           title='tweet it!'
           target='_blank'
           rel='noopener noreferrer'>
-          <FontAwesomeIcon icon={faTwitter} size='md'/>
+          <FontAwesomeIcon icon={faTwitter} size='1x'/>
         </a>
         <a
           href={whatsAppHref}
           title='Share to whatsapp!'
           target='_blank'
           rel='noopener noreferrer'>
-          <FontAwesomeIcon icon={faWhatsapp} size='lg'/>
+          <FontAwesomeIcon icon={faWhatsapp} size='1x'/>
         </a>
       </div>
       <button onClick={handleClick}>
