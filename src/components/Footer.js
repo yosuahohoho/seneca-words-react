@@ -13,7 +13,7 @@ const Footer = () => {
           href='https://www.freecodecamp.org/'
           target='_blank'
           rel='noopener noreferrer'>
-          <FontAwesomeIcon icon={faFreeCodeCamp} /> freeCodeCamp.org
+          <FontAwesomeIcon icon={faFreeCodeCamp} size='lg'/> freeCodeCamp.org
         </a>
       </span>
       <small className='copyright'>2019&copy;Yosua Setyo Nugroho</small>
