@@ -1,11 +1,11 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 
 const useFetchData = url => {
   const [data, setData] = useState('')
   const [isLoading, setIsLoading] = useState(true)
   const [isError, setIsError] = useState(false)
 
-  const fetchData = async () => {
+  const fetchData = useCallback(async () => {
     setIsLoading(true)
     try {
       const response = await fetch(url)
@@ -17,13 +17,12 @@ const useFetchData = url => {
       setIsLoading(false)
       setIsError(true)
     }
-  }
+  },[url])
 
   
   useEffect(() => {
-    // eslint-disable-next-line
     fetchData()
-  }, [])
+  }, [fetchData])
 
   return [{ data, isLoading, isError }, fetchData]
 }
