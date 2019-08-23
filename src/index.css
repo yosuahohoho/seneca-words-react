@@ -85,7 +85,9 @@ h1 {
 }
 
 .quote__share__links > a {
-  border-radius: 50%;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 0.3rem 0.4rem;
 }
 
 .quote__share__links > a + a {
