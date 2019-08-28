@@ -86,8 +86,6 @@ h1 {
 
 .quote__share__links > a {
   font-size: 1rem;
-  border-radius: 5px;
-  padding: 0.3rem 0.4rem;
 }
 
 .quote__share__links > a + a {
@@ -99,7 +97,7 @@ button, button:active, button:focus, button:visited,
 a, a:active, a:focus, a:visited
 {
   background-color: #000;
-  padding: 0.4rem 0.5rem;
+  padding: 0.4em 0.5em;
   color: #fff;
   border: 1px solid #000;
   border-radius: 50px;
